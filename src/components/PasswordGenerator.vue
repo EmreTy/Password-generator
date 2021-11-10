@@ -2,7 +2,10 @@
   <header>
     <h1>Password Generator</h1>
   </header>
-  <div></div>
+  <div id="password-field">
+    <p>PasswordThatWillGenerate</p>
+  </div>
+  <button>Copy to Clipboard</button>
 </template>
 
 <script>
