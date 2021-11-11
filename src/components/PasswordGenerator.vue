@@ -9,12 +9,12 @@
     <form v-on:submit.prevent="add">
       <input type="checkbox" class="checkboxLowercase" id="checkbox01" />
       <label class="buttonLabel" for="checkbox01">Lowercase</label>
-      <input type="checkbox" class="checkboxUppercase" id="checkbox01" />
-      <label class="buttonLabel" for="checkbox01">Uppercase</label>
-      <input type="checkbox" class="checkboxNumbers" id="checkbox01" />
-      <label class="buttonLabel" for="checkbox01">Numbers</label>
-      <input type="checkbox" class="checkboxSymbols" id="checkbox01" />
-      <label class="buttonLabel" for="checkbox01">Symbols</label>
+      <input type="checkbox" class="checkboxUppercase" id="checkbox02" />
+      <label class="buttonLabel" for="checkbox02">Uppercase</label>
+      <input type="checkbox" class="checkboxNumbers" id="checkbox03" />
+      <label class="buttonLabel" for="checkbox03">Numbers</label>
+      <input type="checkbox" class="checkboxSymbols" id="checkbox04" />
+      <label class="buttonLabel" for="checkbox04">Symbols</label>
     </form>
     <form v-on:submit.prevent="add">
       <p id="choose">Password Length:</p>
