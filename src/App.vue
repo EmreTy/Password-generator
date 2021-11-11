@@ -28,7 +28,7 @@ h1 {
   color: #2292a4;
   margin: 20px;
 }
-body {
+__body {
   background-color: #0f0a0a;
 }
 
@@ -44,5 +44,14 @@ button {
   color: #f5efed;
   padding: 5px;
   margin-top: 4rem;
+}
+
+.buttonCheckbox {
+  all: unset;
+}
+.labelButton {
+  padding: 0 0.2rem;
+  border: 0.2rem solid #2292a4;
+  border-radius: 0.2rem;
 }
 </style>
